@@ -74,3 +74,13 @@
 #define BL_TEST_KEY2 KC_END
 
 #define INVERT_OS_SWITCH_STATE
+
+/*Turbo click settings*/
+#define MOUSE_TURBO_CLICK_PERIOD 50
+#define MOUSE_TURBO_CLICK_KEY KC_MS_BTN1
+
+/*Caps word activation*/
+#define BOTH_SHIFTS_TURNS_ON_CAPS_WORD
+
+/*Layer Tap-Toggle*/
+#define TAPPING_TOGGLE 2

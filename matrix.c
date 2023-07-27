@@ -174,10 +174,3 @@ bool matrix_scan_custom(matrix_row_t current_matrix[]) {
 
     return matrix_has_changed;
 }
-
-bool matrix_scan_user(void) {
-  if(rapid_fire) {
-    tap_code(KC_MS_BTN1);
-  } else {
-  }
-}
